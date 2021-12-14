@@ -1,0 +1,24 @@
+[submodule "01_HardwareInterfacing/ueyecam"]
+	path = 01_HardwareInterfacing/ueyecam
+	url = git@github.com:razanskylab/ueyecam.git
+[submodule "01_HardwareInterfacing/Stage_Thorlabs_MTS50"]
+	path = 01_HardwareInterfacing/Stage_Thorlabs_MTS50
+	url = git@github.com:razanskylab/Stage_Thorlabs_MTS50.git
+[submodule "01_HardwareInterfacing/Stage_Thorlabs_DDSM50"]
+	path = 01_HardwareInterfacing/Stage_Thorlabs_DDSM50
+	url = https://github.com/razanskylab/Stage_Thorlabs_DDSM50
+[submodule "01_HardwareInterfacing/Quadrature_Decoder_Board"]
+	path = 01_HardwareInterfacing/Quadrature_Decoder_Board
+	url = git@github.com:razanskylab/Quadrature_Decoder_Board.git
+[submodule "01_HardwareInterfacing/DAQ_Spectrum_M4i4420"]
+	path = 01_HardwareInterfacing/DAQ_Spectrum_M4i4420
+	url = git@github.com:razanskylab/DAQ_Spectrum_M4i4420.git
+[submodule "01_HardwareInterfacing/Laser_BrightSolutions_Onda"]
+	path = 01_HardwareInterfacing/Laser_BrightSolutions_Onda
+	url = git@github.com:razanskylab/Laser_BrightSolutions_Onda.git
+[submodule "01_HardwareInterfacing/Laser_Edgewave_Innoslab"]
+	path = 01_HardwareInterfacing/Laser_Edgewave_Innoslab
+	url = git@github.com:razanskylab/Laser_Edgewave_Innoslab.git
+[submodule "01_HardwareInterfacing/Laser_Sirah_Credo"]
+	path = 01_HardwareInterfacing/Laser_Sirah_Credo
+	url = git@github.com:razanskylab/Laser_Sirah_Credo.git
