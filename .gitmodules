@@ -22,3 +22,21 @@
 [submodule "01_HardwareInterfacing/Laser_Sirah_Credo"]
 	path = 01_HardwareInterfacing/Laser_Sirah_Credo
 	url = git@github.com:razanskylab/Laser_Sirah_Credo.git
+[submodule "01_HardwareInterfacing/Cascade_Trigger"]
+	path = 01_HardwareInterfacing/Cascade_Trigger
+	url = git@github.com:razanskylab/Cascade_Trigger.git
+[submodule "01_HardwareInterfacing/Stage_RSPro"]
+	path = 01_HardwareInterfacing/Stage_RSPro
+	url = git@github.com:razanskylab/Stage_RSPro.git
+[submodule "02_HardwareMethods/widefield_imaging"]
+	path = 02_HardwareMethods/widefield_imaging
+	url = git@github.com:razanskylab/widefield_imaging.git
+[submodule "02_HardwareMethods/probing_proc"]
+	path = 02_HardwareMethods/probing_proc
+	url = git@github.com:razanskylab/probing_proc.git
+[submodule "02_HardwareMethods/pdcalib"]
+	path = 02_HardwareMethods/pdcalib
+	url = git@github.com:razanskylab/pdcalib.git
+[submodule "02_HardwareMethods/coregistrator"]
+	path = 02_HardwareMethods/coregistrator
+	url = git@github.com:razanskylab/coregistrator.git

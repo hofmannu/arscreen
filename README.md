@@ -9,8 +9,14 @@ To prepare your PC before using this repository, the following software should b
 *  git for code repository management
 *  Thorlabs Kinesis
 *  We use VirtualHere client in Zurich to share devices without replugging the USB ports into different PCs
+*  Arduino toolkit
+*  Teensyduino toolkit
 
-I will provide CAD files for the setup at some point, for now we will only have a list of components here.
+### Programm microcontrollers
+
+The two Teensys need to be programmed after soldering the circuits together. 
+
+## Repositories used
 
 *  zStage: [Thorlabs MTS50](https://github.com/razanskylab/Stage_Thorlabs_MTS50)
 *  FL camera: [ueyecam](https://github.com/razanskylab/ueyecam)
@@ -19,6 +25,7 @@ I will provide CAD files for the setup at some point, for now we will only have 
 *  data acuqisition card [M4 Spectrum DAQ](git@github.com:razanskylab/DAQ_Spectrum_M4i4420.git)
 *  dye laser [Sirah Credo](https://github.com/razanskylab/Laser_Sirah_Credo)
 *  edgewave laser [Edge](https://github.com/razanskylab/Laser_Edgewave_Innoslab)
+*  cascade trigger [Cascader](https://github.com/razanskylab/Cascade_Trigger)
 *  optional: Onda lasers for fixed wavelengths
 
 ## Libraries
