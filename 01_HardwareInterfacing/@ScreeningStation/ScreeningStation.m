@@ -8,14 +8,20 @@
 classdef ScreeningStation < handle
 
 	properties
-		FastStage(1, 1) = ThorlabsStage('stageId', get_com_port('FastStage'));
-		SlowStage(1, 1) = ThorlabsStage('stageId', get_com_port('SlowStage'));
+		FastStage(1, 1) = ThorlabsStage('stageId', get_com_port('FastStage'))
+		SlowStage(1, 1) = ThorlabsStage('stageId', get_com_port('SlowStage'))
 		% zStage(1, 1) = ThorlabsZStage();
-		FLCamera(1, 1) = uEyeCam();
+		% FLCamera(1, 1) = uEyeCam();
 		% FLStage(1, 1) = Stage_RSPro();
-		DAQ(1, 1) = M4DAC16();
-		Trigger(1, 1) = TeensyCommunicator();
-		Cascader(1, 1) = CascadeCommunicator();
+
+		% --> get running for SNRScope
+		% DAQ(1, 1) = M4DAC16();
+
+		% --> need for scan
+		% Trigger(1, 1) = PositionBasedTriggerCommunicator();
+		
+		% --> get running for SNCRScope
+		% Cascader(1, 1) = CascadeCommunicator();
 
 		% here we need all the lasers at some point
 	end
@@ -26,8 +32,6 @@ classdef ScreeningStation < handle
 	end
 
 	methods
-
-
 
 		% define total position
 		function pos = get.pos(ss)

@@ -13,7 +13,7 @@
 classdef ThorScan < GeneralScan
 
   properties
-    % sett(1, 1) ScanSettings;
+    % sett(1, 1) ScanSettings;  %Already define in GeneralScan
     % Default setting is to read the settings from the file, will be overwritten
     % by some other functions
 
@@ -50,7 +50,7 @@ classdef ThorScan < GeneralScan
 
   methods
 
-   function nShotsB = get.nShotsB(ts) % number of a scans in bscan
+    function nShotsB = get.nShotsB(ts) % number of a scans in bscan
       nShotsB = uint32(ts.nX) * uint32(ts.sett.nLambda) * uint32(ts.sett.nAverages);
     end
 
@@ -65,6 +65,9 @@ classdef ThorScan < GeneralScan
         dZ = NaN;
       end
     end
+
+    Run(thorscan, microscope);
+
 
   end
 end

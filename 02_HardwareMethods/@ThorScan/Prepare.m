@@ -4,6 +4,7 @@
 % Date: 		27. Feb 2018
 % Version:	1.0
 
+
 function Prepare(thorscan, microscope)
 
   thorscan.Read_Settings(); % Read in settings

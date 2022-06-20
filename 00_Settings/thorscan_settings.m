@@ -15,7 +15,7 @@ function [scanSett, PostProSettings] = thorscan_settings()
   % - pa_50MHz
   scanSett.fiber = 'none'; % type of illumination fiber
   scanSett.PPE = [0]; % approximate per pulse energy in microJ / energy lvl of transducer
-  scanSett.ctr = [25, 10]; % center point x y [mm], default 25 10 
+  scanSett.ctr = [25, 35]; % center point x y [mm], default 25 10 
   % 25 to 32
   % reminder x pos:5A.FastStage.pos; y pos: A.SlowStage.pos 
   scanSett.width = [10, 10] %size of FOV x y [mm]

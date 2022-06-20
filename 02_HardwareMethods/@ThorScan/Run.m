@@ -11,9 +11,9 @@ function Run(thorscan, microscope)
     
   thorscan.Prepare(microscope); % Prep varibales, read settings, initialize hardware
   thorscan.Acquire(microscope); % Acquire data
-  thorscan.Post_Hardware(microscope); % Post hardware
-  thorscan.Create_File_Name(); % Generate file names
-  thorscan.Save_Raw_Data(); % Save raw data to file
+  % thorscan.Post_Hardware(microscope); % Post hardware
+  % thorscan.Create_File_Name(); % Generate file names
+  % thorscan.Save_Raw_Data(); % Save raw data to file
 
   if thorscan.sett.flagGenPreview
  		thorscan.Print_Preview();

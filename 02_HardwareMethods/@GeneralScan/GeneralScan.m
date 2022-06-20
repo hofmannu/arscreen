@@ -9,8 +9,8 @@ classdef GeneralScan < handle
 
 	properties
 		sett(1, 1) ScanSettings;
-		flagVerbose(1, 1) logical = 1;
-		flagPreview(1, 1) logical = 1;
+		flagVerbose(1, 1) logical = 1; % enable / disable verbose output
+		flagPreview(1, 1) logical = 0;
 
 		RawDataUs int16;
 		RawDataPd int16;

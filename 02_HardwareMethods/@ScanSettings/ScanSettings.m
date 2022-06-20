@@ -1,3 +1,4 @@
+  
 % File: ScanSettings.m @ ScanSettings
 % Author: Urs Hofmann
 % Mail: hofmannu@biomed.ee.ethz.ch
