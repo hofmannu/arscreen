@@ -13,7 +13,7 @@ classdef ScreeningStation < handle
 		% zStage(1, 1) = ThorlabsZStage();
 		% FLCamera(1, 1) = uEyeCam();
 		% FLStage(1, 1) = Stage_RSPro();
-
+		
 		% --> get running for SNRScope
 		% DAQ(1, 1) = M4DAC16();
 
